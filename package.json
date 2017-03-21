@@ -1,10 +1,10 @@
 {
-  "name": "uirecorder",
+  "name": "uirecorder-jonas",
   "version": "2.4.7",
   "description": "A tool for record ui test case",
   "main": "./index",
   "bin": {
-    "uirecorder": "./bin/uirecorder"
+    "uirecorder-jonas": "./bin/uirecorder"
   },
   "dependencies": {
     "async": "2.1.2",
@@ -26,10 +26,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:alibaba/uirecorder.git"
+    "url": "git@github.com:jonasstams/uirecorder.git"
   },
   "bugs": {
-    "url": "https://github.com/alibaba/uirecorder/issues"
+    "url": "https://github.com/jonasstams/uirecorder/issues"
   },
   "keywords": [
     "uirecorder",
