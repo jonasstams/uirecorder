@@ -29,7 +29,11 @@ program
     .option('--no-color', 'disable colors')
     .option('-m --mobile', 'mobile mode')
     .option('-d --debug', 'debug mode')
-    .option('-r --raw', 'save raw cmds');
+    .option('-h --host <host>', 'set webdriver host')
+    .option('-p --port <port>', 'set webdriver port')
+    .option('-f --filepath <path>', 'set test filepath')
+    .option('-b --browsersize <size>', 'set browser size')
+    .option('-c --continuerecord', 'continue recording testfile');
 
 program.command('init')
     .description('Init UIRecorder config file')
@@ -38,7 +42,9 @@ program.command('init')
         UIRecorder.init({
             locale: program.lang,
             mobile: program.mobile,
-            debug: program.debug
+            debug: program.debug,
+            host: program.host,
+            port: program.port
         });
     });
 
@@ -51,7 +57,10 @@ program.command('start')
             cmdFilename: program.args.length === 2 ? program.args[0] : '',
             mobile: program.mobile,
             debug: program.debug,
-            raw: program.raw
+            raw: program.raw,
+            filepath: program.filepath,
+            browsersize: program.browsersize,
+            continuerecord: program.continuerecord
         });
     });
 

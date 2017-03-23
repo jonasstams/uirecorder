@@ -1,0 +1,13 @@
+{
+    "webdriver": {
+        "host": "undefined",
+        "port": "undefined",
+        "browsers": "undefined"
+    },
+    "vars": {},
+    "recorder": {
+        "pathAttrs": "undefined",
+        "attrValueBlack": "undefined",
+        "hideBeforeExpect": "undefined"
+    }
+}
