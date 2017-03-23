@@ -1,6 +1,6 @@
 {
   "name": "uirecorder-jonas",
-  "version": "2.4.7",
+  "version": "2.4.9",
   "description": "A tool for record ui test case",
   "main": "./index",
   "bin": {
