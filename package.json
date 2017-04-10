@@ -1,10 +1,10 @@
 {
-  "name": "uirecorder-jonas",
-  "version": "2.4.9",
+  "name": "uirecorder",
+  "version": "2.4.11",
   "description": "A tool for record ui test case",
   "main": "./index",
   "bin": {
-    "uirecorder-jonas": "./bin/uirecorder"
+    "mediaan-recorder": "./bin/uirecorder"
   },
   "dependencies": {
     "async": "2.1.2",
